@@ -1,12 +1,13 @@
 body {
-    width: 1500px;
-    
+  
+
   margin: 0;
   padding: 0;
-  margin:auto;
+  margin: auto;
+}
+main {
 }
 .backgroundImag {
-
   height: 30rem;
   background-image: url("./bmi\ bmi.jpg");
   background-repeat: no-repeat;
@@ -15,26 +16,25 @@ body {
 }
 
 .video {
-
   background-size: cover;
   padding-left: 50px;
   padding-bottom: 450px;
 }
 .vid {
   height: 25em;
-  
 }
-.title{
-    padding-top:250px;
-    margin-left: 30rem;
-    font-size: 8em;
-    color:whitesmoke;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.title {
+  padding-top: 250px;
+  margin-left: 30rem;
+  font-size: 8em;
+  color: whitesmoke;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .imgApple {
   width: 250px;
   /*  margin:auto; */
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 15px;
 }
 .h1 {
@@ -43,30 +43,30 @@ body {
   margin-bottom: 45px;
 }
 .btnDiv {
-    margin: 50px;
-   display: flex;
-   padding-top: 150px;
-justify-content: center;
-    background-color:blanchedalmond;
-   padding-bottom: 150px;
-   margin-bottom:50px;
-    
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 150px;
+  justify-content: center;
+  background-color: blanchedalmond;
+  padding-bottom: 150px;
+  margin-bottom: 50px;
 }
 
-
-.infoParagraf{
-    width: 20rem;
-    text-align: justify;
-    margin-left: 0px;
+.infoParagraf {
+    display: flex;
+    flex-wrap: wrap;
+  width: 20rem;
+  text-align: justify;
 }
-.vidAndPeregraf{
-    display:flex;
-    justify-content: center;
+.vidAndPeregraf {
+  display: flex;
+  justify-content: center;
 }
-.title2{
-    display:flex;
-    justify-content: center;
+.title2 {
+  display: flex;
+  justify-content: center;
 }
-.table{
-    width: 50rem;
+.table {
+  width: 50rem;
 }
