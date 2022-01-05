@@ -1,0 +1,72 @@
+body {
+    width: 1500px;
+    
+  margin: 0;
+  padding: 0;
+  margin:auto;
+}
+.backgroundImag {
+
+  height: 30rem;
+  background-image: url("./bmi\ bmi.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+.video {
+
+  background-size: cover;
+  padding-left: 50px;
+  padding-bottom: 450px;
+}
+.vid {
+  height: 25em;
+  
+}
+.title{
+    padding-top:250px;
+    margin-left: 30rem;
+    font-size: 8em;
+    color:whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.imgApple {
+  width: 250px;
+  /*  margin:auto; */
+  display: flex;
+  margin-bottom: 15px;
+}
+.h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 45px;
+}
+.btnDiv {
+    margin: 50px;
+   display: flex;
+   padding-top: 150px;
+justify-content: center;
+    background-color:blanchedalmond;
+   padding-bottom: 150px;
+   margin-bottom:50px;
+    
+}
+
+
+.infoParagraf{
+    width: 20rem;
+    text-align: justify;
+    margin-left: 0px;
+}
+.vidAndPeregraf{
+    display:flex;
+    justify-content: center;
+}
+.title2{
+    display:flex;
+    justify-content: center;
+}
+.table{
+    width: 50rem;
+}
